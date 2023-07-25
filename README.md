@@ -1,4 +1,4 @@
-# MELTS
+# Context-Based Meta-Reinforcement Learning with Bayesian Nonparametric Models
 Official implementation of `Context-Based Meta-Reinforcement Learning with Bayesian Nonparametric Models (MELTS)`.
 
 Links to the weights and videos of MELTS(DPMM) and MELTS(Gauss) to cheetah-eight-tasks
