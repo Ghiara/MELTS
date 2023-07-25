@@ -1,0 +1,52 @@
+{
+    "PCGrad_params": {
+        "use_PCGrad": false
+    },
+    "algo_params": {
+        "sac_context_type": "sample",
+        "use_data_normalization": false,
+        "encoder_type": "gru",
+        "latent_size": 8,
+        "num_train_epochs": 6001,
+        "num_train_tasks_per_episode": 80,
+        "time_steps": 16,
+        "use_fixed_seeding": false
+    },
+    "env_name": "cheetah-multi-task",
+    "env_params": {
+        "n_eval_tasks": 40,
+        "n_train_tasks": 80,
+        "task_variants": [
+            "velocity_forward",
+            "velocity_backward",
+            "stand_back",
+            "stand_front",
+            "goal_forward",
+            "goal_backward",
+            "flip_forward",
+            "jump"
+        ]
+    },
+    "inference_option": "gauss",
+    "reconstruction_params": {
+        "alpha_kl_z": 0.0005,
+        "beta_euclid": 0.0005,
+        "gamma_sparsity": 0.001,
+        "num_classes": 8
+    },
+    "util_params": {
+        "base_log_dir": "/data/bing/yuqi/output/final/c8",
+        "use_gpu": true,
+        "use_multiprocessing": false,
+        "num_workers": 2,
+        "gpu_id": 6,
+        "exp_name": "c8"
+    },
+    "dpmm_params": {
+        "save_dir": "/data/bing/yuqi/temp_bnp/",
+        "start_epoch": 50000,
+        "num_lap": 2,
+        "fit_interval": "epoch",
+        "kl_method": "soft"
+    }
+}

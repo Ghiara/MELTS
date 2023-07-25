@@ -1,0 +1,7 @@
+numpy>=1.10.4
+requests>=2.0
+six
+pyglet>=1.2.0
+scipy
+PyOpenGL>=3.1.0
+nose>=1.3.7

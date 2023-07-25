@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: rand-param-envs
+Version: 0.1
+Summary: Environments with random model parameters, using gym 0.7.4 and mujoco-py 0.5.7
+Home-page: https://github.com/dennisl88/rand_param_envs
+Author: Dennis Lee, Ignasi Clavera, Jonas Rothfuss
+Author-email: dennisl88@berkeley.edu
+License: MIT
+Platform: UNKNOWN
+
+UNKNOWN
+
